@@ -1,116 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projectbus</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>projectbus</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Theme Toggle Button -->
-    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light theme">
-        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-        </svg>
-        <svg class="moon-icon" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
-    </button>
-
-    <!-- Animated Background -->
-    <div class="background-elements">
-        <div class="gradient-orb orb-1"></div>
-        <div class="gradient-orb orb-2"></div>
-        <div class="gradient-orb orb-3"></div>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-content">
+      <h1 class="logo">projectbus</h1>
     </div>
+  </header>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="header-content">
-            <h1 class="logo">projectbus</h1>
+  <main class="main-content">
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2 class="hero-title">Uniting the bus-loving community</h2>
+      <p class="hero-subtitle">We love buses. And we want you to as well.</p>
+      <a href="#chelmsford" class="cta-button">Play Chelmsford Bus Sim</a>
+    </section>
+
+    <!-- Who We Are Section -->
+    <section class="who-we-are">
+      <div class="section-header">
+        <span class="accent-bar"></span>
+        <h3 class="section-title">Who we are</h3>
+      </div>
+      <p class="section-content">
+        We’re two young web developers, Sebastian and levine868, both with a passion for buses. The bus-loving community is a big growing one, and we want to contribute to it, building bus-related projects that bring you joy. We began in 2026, with the start of development for Chelmsford Bus Simulator. As we progress, we aim to build and release more bus projects, from apps to games.
+      </p>
+    </section>
+
+    <!-- Chelmsford Bus Simulator Section -->
+    <section class="project-section chelmsford-section" id="chelmsford">
+      <div class="section-header">
+        <span class="accent-bar"></span>
+        <h3 class="section-title">Chelmsford Bus Simulator</h3>
+      </div>
+      <p class="section-content">
+        Explore the county city of Essex’s wide variety of buses and routes, with a to-scale network of Chelmsford’s road systems, and realistic models of the buses that serve.
+      </p>
+      <button class="coming-soon-button" disabled>Coming Soon..</button>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+      <div class="team-grid">
+        <!-- SB Designs -->
+        <div class="team-card">
+          <div class="section-header">
+            <span class="accent-bar"></span>
+            <h4 class="section-title">SB Designs</h4>
+          </div>
+          <p class="team-description">Sebastian’s parenting company.</p>
+          <a href="https://sbdesigns.is-a.dev" class="visit-button">Visit Website</a>
         </div>
-    </header>
-
-    <!-- Main Content -->
-    <main class="main-content">
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-content">
-                <h2 class="hero-title">Uniting the bus-loving community</h2>
-                <p class="hero-subtitle">We love buses. And we want you to as well.</p>
-                <a href="#chelmsford" class="cta-button">Play Chelmsford Bus Sim</a>
-            </div>
-        </section>
-
-        <!-- Who We Are Section -->
-        <section class="who-we-are">
-            <div class="section-header">
-                <div class="accent-bar"></div>
-                <h3 class="section-title">Who we are</h3>
-            </div>
-            <p class="section-content">
-                We're two young web developers, Sebastian and lovine868, both with a passion for buses. The bus-loving community is a big one, and we want to contribute to it, building bus-related projects that bring you joy. We began in 2026, with the start of development for Chelmsford Bus Simulator. As we progress, we aim to build and release more bus projects, from apps to games.
-            </p>
-        </section>
-
-        <!-- Chelmsford Bus Simulator Section -->
-        <section class="project-section chelmsford-section" id="chelmsford">
-            <div class="section-header">
-                <div class="accent-bar"></div>
-                <h3 class="section-title">Chelmsford Bus Simulator</h3>
-            </div>
-            <p class="section-content">
-                Explore the county of Essex with a variety of buses and routes, with a to-scale network of Chelmsford's road systems, and realistic models of the buses that serve.
-            </p>
-            <button class="coming-soon-button" disabled>Coming Soon...</button>
-        </section>
-
-        <!-- Team Section -->
-        <section class="team-section">
-            <div class="team-grid">
-                <!-- SB Designs -->
-                <div class="team-card">
-                    <div class="section-header">
-                        <div class="accent-bar"></div>
-                        <h4 class="section-title">SB Designs</h4>
-                    </div>
-                    <p class="team-description">Sebastian's parenting company.</p>
-                    <a href="https://sbdesigns.is-a.dev" class="visit-button">Visit Website</a>
-                </div>
-
-                <!-- Lev868 -->
-                <div class="team-card">
-                    <div class="section-header">
-                        <div class="accent-bar"></div>
-                        <h4 class="section-title">Lev868</h4>
-                    </div>
-                    <p class="team-description">lovine868's parenting company.</p>
-                    <a href="https://lev868.dynv6.net" class="visit-button">Visit Website</a>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <p class="footer-quote">
-                <span class="quote-mark">"When in doubt, take a bus."</span>
-                <span class="quote-author">Greenarrowsqrl</span>
-            </p>
-            <p class="footer-copyright">© ProjectBus 2026</p>
-            <p class="footer-info">ProjectBus is a joint venture between SB Designs and Lev868.</p>
+        <!-- Lev868 -->
+        <div class="team-card">
+          <div class="section-header">
+            <span class="accent-bar"></span>
+            <h4 class="section-title">Lev868</h4>
+          </div>
+          <p class="team-description">levine868’s parenting company.</p>
+          <a href="https://lev868.dynv6.net" class="visit-button">Visit Website</a>
         </div>
-    </footer>
+      </div>
+    </section>
+  </main>
 
-    <script src="script.js"></script>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-quote">
+        “When in doubt, take a bus.”
+        <span class="quote-author"><b>Greenarrowsqrl</b></span>
+      </p>
+      <p class="footer-copyright">© ProjectBus 2026</p>
+      <p class="footer-info">
+        ProjectBus (styled as projectbus) is a joint venture between SB Designs and Lev868.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
